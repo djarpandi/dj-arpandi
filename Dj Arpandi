@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DJ Arpandi Official</title>
+  <style>
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #eee;
+      text-align: center;
+    }
+    header {
+      background: #1db954;
+      padding: 40px 20px;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    section {
+      padding: 20px;
+      max-width: 600px;
+      margin: 30px auto;
+      background: #222;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #1db954;
+      margin-bottom: 15px;
+    }
+    a {
+      color: #1db954;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin: 8px 0;
+    }
+    .gallery img {
+      width: 150px;
+      margin: 10px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      background: #1db954;
+      padding: 10px;
+      font-size: 0.9rem;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  DJ Arpandi
+</header>
+
+<section>
+  <h2>Tentang DJ Arpandi</h2>
+  <p>DJ Arpandi adalah DJ profesional yang membawa aliran musik elektronik terbaik dan penuh energi di setiap penampilannya.</p>
+</section>
+
+<section>
+  <h2>Musik Terbaru</h2>
+  <!-- Ganti link Spotify atau SoundCloud di sini dengan link DJ Arpandi -->
+  <iframe src="https://open.spotify.com/embed/track/3n3Ppam7vgaVa1iaRUc9Lp" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</section>
+
+<section class="gallery">
+  <h2>Galeri Foto</h2>
+  <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=150&q=80" alt="Foto DJ Arpandi 1" />
+  <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=150&q=80" alt="Foto DJ Arpandi 2" />
+  <img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=150&q=80" alt="Foto DJ Arpandi 3" />
+</section>
+
+<section>
+  <h2>Jadwal Event</h2>
+  <ul>
+    <li>25 Juni 2025 - Club XYZ, Jakarta</li>
+    <li>10 Juli 2025 - Festival Musik, Bandung</li>
+    <li>30 Juli 2025 - Beach Party, Bali</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Kontak</h2>
+  <p>Email: <a href="mailto:arpandi@example.com">arpandi@example.com</a></p>
+  <p>Instagram: <a href="https://instagram.com/djarpandi" target="_blank">@djarpandi</a></p>
+</section>
+
+<footer>
+  &copy; 2025 DJ Arpandi. All rights reserved.
+</footer>
+
+</body>
+</html>
